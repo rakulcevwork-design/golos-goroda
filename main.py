@@ -1048,9 +1048,10 @@ def main():
     # --------------------------------------------------------
 
     application = (
-        Application.builder()
-        .token(token)
-        .build()
+    Application.builder()
+    .token(token)
+    .updater(None)
+    .build()
     )
 
     # --------------------------------------------------------
