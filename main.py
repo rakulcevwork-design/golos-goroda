@@ -1047,10 +1047,9 @@ def main():
     # СОЗДАЁМ APPLICATION
     # --------------------------------------------------------
 
-    application = (
+   application = (
     Application.builder()
     .token(token)
-    .updater(None)
     .build()
     )
 
